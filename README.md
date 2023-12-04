@@ -1,191 +1,189 @@
-# Christmas Spirit Breaker (and New Years Too)
-##### "Are you tired of having to manually write and send christmas texts to everyone on christmas to mantain a good relationship with them? Do you want to be the annoying person who is the first one to send "Happy new year" messages to everyone on your contact list exactly at midnight? Do you want to be a bad boy this christmas season? I got you covered."  
+# Spiritul Crăciunului și de asemenea Anul Nou)
+##### „Te-ai săturat să fii nevoit să scrii și să trimiți manual texte de Crăciun tuturor de Crăciun pentru a menține o relație bună cu ei? Vrei să fii persoana enervantă care este prima care trimite „La mulți ani” mesaje tuturor celor de pe lista ta de contacte exact la miezul nopții? Vrei să fii un băiat rău în acest sezon de Crăciun? Te-am acoperit."
   
-Strongly inspired by my other project [RomanceBreaker](https://github.com/lorcalhost/RomanceBreaker/), introducing ***Christmas Spirit Breaker***, a python script which automatically sends a custom christmas/new year's greeting message, from a custom messages list, to your selected contacts you want to mantain good relationships with, at given time range on Facebook Messenger, WhatsApp, Telegram or via SMS. Time to be bad boys this christmas. *Work smarter, not Harder.*
+Inspirat puternic de celălalt proiect, prezentând ***Spărgătorul de spirit de Crăciun***, un script python care trimite automat un mesaj personalizat de felicitare de Crăciun/Anul Nou, dintr-o listă de mesaje personalizată, la contactele selectate cu care doriți să mențineți relații bune, la un interval de timp dat pe Facebook Messenger, WhatsApp, Telegram sau prin SMS. E timpul să fim băieți răi de Crăciun. *Lucrează mai inteligent, nu mai greu.*
 
-### What you will gain:
-  - More time spent with the new body pillow you just received for christmas.
-  - More time spent stealing new year's champagne from people who are busy texting their friends.
-  - Mantain those relationships with friends (if you don't send greetings on such events they will know you are not a true friend)
-  - Magic
+### Ce vei câștiga:
+   - Mai mult timp petrecut cu noua pernă de corp pe care tocmai ai primit-o de Crăciun.
+   - Mai mult timp petrecut furând șampania de Anul Nou de la oameni care sunt ocupați să-și trimită mesaje mesaje prietenilor.
+   - Mențineți acele relații cu prietenii (dacă nu trimiteți felicitări la astfel de evenimente, ei vor ști că nu sunteți un prieten adevărat)
+   - Magie
 
 ---
-## [NEW] [YOU CAN FIND THE VIDEO INSTALLATION GUIDE HERE](https://youtu.be/yaC3OxaGJpI)
 # Facebook Messenger:
-### Installation on PC
+### Instalare pe PC
 
-Santa relies on reindeers for delivery, and so does Christmas Spirit Breaker rely on a few things, here is what to do to get them:  
-- Python3 is needed get it from [here](https://www.python.org/downloads/)
+Moș Crăciun se bazează pe reni pentru livrare, la fel și Christmas Spirit Breaker se bazează pe câteva lucruri, iată ce trebuie să faceți pentru a-i obține:
+- Este necesar Python3, obțineți-l de [aici](https://www.python.org/downloads/)
 
-###### For Linux:
-Run these commands in your preferred terminal application  
+###### Pentru Linux:
+Rulați aceste comenzi în aplicația de terminal preferată
 ```sh
 sudo apt-get install python3-pip
-pip3 install fbchat bs4 
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+pip3 instalează fbchat bs4
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-###### For Windows
-- Also install git from [here](https://git-scm.com/download/win)
-- Make sure you run all the commands from git
+###### Pentru Windows
+- Instalați și git de [aici](https://git-scm.com/download/win)
+- Asigurați-vă că rulați toate comenzile din git
 ```sh
 pip install fbchat bs4
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
 
-### Installation on Android 
-From *Android* you will only be able to run the Facebook Messenger version, here are the instructions:
-- First download and install [Termux from the Google Play Store](https://play.google.com/store/apps/details?id=com.termux)  
-- Then run the following commands:   
-- ```termux-setup-storage``` and allow storage access  
+### Instalare pe Android
+De pe *Android* vei putea rula doar versiunea Facebook Messenger, iată instrucțiunile:
+- Mai întâi descărcați și instalați [Termux din Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
+- Apoi executați următoarele comenzi:
+- ```termux-setup-storage``` și permiteți accesul la stocare
 ```sh
-cd storage/downloads 
-pkg install python3 git
-pip3 install fbchat requests bs4 enum
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+stocare CD/descărcări
+pkg instalează python3 git
+pip3 instalează fbchat solicită bs4 enum
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-Please note that every time you restart your device, you will have to re run the commands in the *How to run* section
+Vă rugăm să rețineți că de fiecare dată când reporniți dispozitivul, va trebui să rulați din nou comenzile din secțiunea *Cum se rulează*
 
 ---
 
-# Telegram:
-### Installation on PC
+# Telegramă:
+### Instalare pe PC
 
-Santa relies on reindeers for delivery, and so does Christmas Spirit Breaker rely on a few things, here is what to do to get them:  
-- Python3 is needed get it from [here](https://www.python.org/downloads/)
+Moș Crăciun se bazează pe reni pentru livrare, la fel și Christmas Spirit Breaker se bazează pe câteva lucruri, iată ce trebuie să faceți pentru a-i obține:
+- Este necesar Python3, obțineți-l de [aici](https://www.python.org/downloads/)
 
-###### For Linux:
-Run these commands in your preferred terminal application  
+###### Pentru Linux:
+Rulați aceste comenzi în aplicația de terminal preferată
 ```sh
 sudo apt-get install python3-pip
-pip3 install telethon bs4 
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+pip3 instalează telethon bs4
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-###### For Windows
-- Also install git from [here](https://git-scm.com/download/win)
-- Make sure you run all the commands from git
+###### Pentru Windows
+- Instalați și git de [aici](https://git-scm.com/download/win)
+- Asigurați-vă că rulați toate comenzile din git
 ```sh
 pip install telethon bs4
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
 
-### Installation on Android 
-From *Android* you will only be able to run the Facebook Messenger version, here are the instructions:
-- First download and install [Termux from the Google Play Store](https://play.google.com/store/apps/details?id=com.termux)  
-- Then run the following commands:   
-- ```termux-setup-storage``` and allow storage access  
+### Instalare pe Android
+De pe *Android* vei putea rula doar versiunea Facebook Messenger, iată instrucțiunile:
+- Mai întâi descărcați și instalați [Termux din Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
+- Apoi executați următoarele comenzi:
+- ```termux-setup-storage``` și permiteți accesul la stocare
 ```sh
-cd storage/downloads 
-pkg install python3 git
-pip install fbchat requests bs4 enum
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+stocare CD/descărcări
+pkg instalează python3 git
+pip install fbchat solicită bs4 enum
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-Please note that every time you restart your device, you will have to re run the commands in the *How to run* section
+Vă rugăm să rețineți că de fiecare dată când reporniți dispozitivul, va trebui să rulați din nou comenzile din secțiunea *Cum se rulează*
 
 ---
 
-# WhatsApp and SMS
-### Installation on PC
+# WhatsApp și SMS
+### Instalare pe PC
 
-Santa relies on reindeers for delivery, and so does Christmas Spirit Breaker rely on a few things, here is what to do to get them:  
-- Python3 is needed get it from [here](https://www.python.org/downloads/)
-- Chrome Driver get it from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.44/) and unzip in the ```ChristmasSpiritBreaker-andNewYearsToo``` folder
-- If you want to setup SMS you will need to have [Google messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) on your Android phone
+Moș Crăciun se bazează pe reni pentru livrare, la fel și Christmas Spirit Breaker se bazează pe câteva lucruri, iată ce trebuie să faceți pentru a-i obține:
+- Este necesar Python3, obțineți-l de [aici](https://www.python.org/downloads/)
+- Chrome Driver obțineți-l de pe [aici](https://chromedriver.storage.googleapis.com/index.html?path=2.44/) și dezarhivați în folderul ```ChristmasSpiritBreaker-andNewYearsToo```
+- Dacă doriți să configurați SMS-uri, va trebui să aveți [mesaje Google](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) pe telefonul dvs. Android
 
-###### For Linux:
-Run these commands in your preferred terminal application  
+###### Pentru Linux:
+Rulați aceste comenzi în aplicația de terminal preferată
 ```sh
 sudo apt-get install python3-pip xclip
-sudo pip3 install selenium bs4 pyperclip
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+sudo pip3 instalează selenium bs4 pyperclip
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-###### For Windows
-- Also install git from [here](https://git-scm.com/download/win)
-- Make sure you run all the commands from git
+###### Pentru Windows
+- Instalați și git de [aici](https://git-scm.com/download/win)
+- Asigurați-vă că rulați toate comenzile din git
 ```sh
 pip install selenium bs4 pyperclip
-git clone https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
+clona git https://github.com/lorcalhost/ChristmasSpiritBreaker-andNewYearsToo.git
 ```
-##### SMS mode is strongly not suggested, it's slow and buggy due to Google Messages nature
+##### Modul SMS nu este recomandat, este lent și cu probleme din cauza naturii Google Messages
 
 ---
 
-# How to run
-First go to the program directory by typing in the terminal:
-- From **PC:**  ```cd ChristmasSpiritBreaker-andNewYearsToo``` 
-- From **Android:** ```cd storage/downloads/ChristmasSpiritBreaker-andNewYearsToo```  
+# Cum să alergi
+Mai întâi accesați directorul programului tastând în terminal:
+- De pe **PC:** ```cd ChristmasSpiritBreaker-andNewYearsToo```
+- Din **Android:** ```stocare CD/descărcări/ChristmasSpiritBreaker-andNewYearsToo```
 
-Then run the script with the according argument:  
-- For **WhatsApp version**: ```python3 christmasSpiritBreaker.py -w``` or ```python3 christmasSpiritBreaker.py whatsapp``` 
-- For **Messenger version**: ```python3 christmasSpiritBreaker.py -m``` or ```python3 christmasSpiritBreaker.py messenger``` 
-- For **SMS version**: ```python3 christmasSpiritBreaker.py -s``` or ```python3 christmasSpiritBreaker.py sms``` 
-- For **Telegram version**: ```python3 christmasSpiritBreaker.py -t``` or ```python3 christmasSpiritBreaker.py telegram``` 
+Apoi rulați scriptul cu argumentul corespunzător:
+- Pentru **versiunea WhatsApp**: ```python3 christmasSpiritBreaker.py -w``` sau ```python3 christmasSpiritBreaker.py whatsapp```
+- Pentru **versiunea Messenger**: ```python3 christmasSpiritBreaker.py -m``` sau ```python3 christmasSpiritBreaker.py messenger```
+- Pentru **versiunea SMS**: ```python3 christmasSpiritBreaker.py -s``` sau ```python3 christmasSpiritBreaker.py sms```
+- Pentru **Versiunea Telegram**: ```python3 christmasSpiritBreaker.py -t``` sau ```python3 christmasSpiritBreaker.py telegram```
 
-Also other arguments exist like:
-- To open **user guide**: ```python3 christmasSpiritBreaker.py -h``` or ```python3 christmasSpiritBreaker.py help```  or ```python3 christmasSpiritBreaker.py man``` 
-- To **update** the script: ```python3 christmasSpiritBreaker.py update```
+De asemenea, există și alte argumente precum:
+- Pentru a deschide **ghidul utilizatorului**: ```python3 christmasSpiritBreaker.py -h``` sau ```python3 christmasSpiritBreaker.py help``` sau ```python3 christmasSpiritBreaker.py man```
+- Pentru a **actualiza** scriptul: ```python3 christmasSpiritBreaker.py update```
 
-**For *Android* users:** you will also need to press ```"ACQUIRE WAKELOCK"``` in the Termux notification to enable the script to run in the background withoutthe process being killed  
-***Android right now only supports Facebook Messenger mode***
-
+**Pentru utilizatorii *Android*:** va trebui, de asemenea, să apăsați ```"ACQUIRE WAKELOCK"``` în notificarea Termux pentru a permite rularea scriptului în fundal fără ca procesul să fie oprit
+***Momentan Android acceptă doar modul Facebook Messenger***
 ---
 
-# Custom messages/contacts/times setup
-***Android** users may want to edit the ```config.py``` file with their preferred text editing app as the file will be in the Downloads folder of their devices*   
+# Mesaje personalizate/contacte/configurare oră
+Utilizatorii ***Android** ar putea dori să editeze fișierul ```config.py``` cu aplicația lor preferată de editare a textului, deoarece fișierul va fi în dosarul Descărcări al dispozitivelor lor*
   
-Simply open the ```config.py``` file with your preferred text editing app and follow the instructions there, I think I made them clear enough   
+Pur și simplu deschideți fișierul ```config.py``` cu aplicația de editare a textului preferată și urmați instrucțiunile de acolo, cred că le-am clarificat suficient
 
-If you don't want to use the bot for both christmas and new years you can disable the fatures individually by setting to ```False``` the lines
+Dacă nu doriți să utilizați botul atât pentru Crăciun, cât și pentru Anul Nou, puteți dezactiva faturile individual, setând liniile la ```False```
 ```python
-christmasModeEnabled = True # Change to False to disable Christmas mode
-newYearsModeEnabled = True # Change to False to disable New Year's mode
+christmasModeEnabled = Adevărat # Schimbați în Fals pentru a dezactiva modul Crăciun
+newYearsModeEnabled = Adevărat # Schimbați în Fals pentru a dezactiva modul de Anul Nou
 ```
-###### If you still cannot understand from the config.py file..
-## Custom messages:
+###### Dacă tot nu puteți înțelege din fișierul config.py..
+## Mesaje personalizate:
 
 
-Replace the messages in between ```" "``` with your own custom messages, you can also add more custom messages by adding after the ```"``` of the last message a comma and a new message, always in between ```" "```s. 
-If we want to add ```New custom message``` to the list below 
+Înlocuiți mesajele dintre ```" "``` cu propriile dvs. mesaje personalizate, puteți adăuga și mai multe mesaje personalizate adăugând după ```"``` din ultimul mesaj o virgulă și un mesaj nou, întotdeauna în între ```" "```s.
+Dacă vrem să adăugăm ```Mesaj personalizat nou``` la lista de mai jos
 ```python
-christmas_messages = ["Merry christmas!"]
+christmas_messages = [„Crăciun Fericit!”]
 ```
-We just need to edit it like this:
+Trebuie doar să o edităm astfel:
 ```python
-christmas_messages = ["Merry christmas!", "New custom message"]
+christmas_messages = [„Crăciun fericit!”, „Mesaj personalizat nou”]
 ```
-## Custom contacts:
+## Contacte personalizate:
 **Important:**
- - Make sure that if you are setting up **WhatsApp** contatcs or **SMS** contacts you are writing their names **as they appear in your phone's conatct list**  
- - If you are using **Messenger** use your contact's messenger **username**
+  - Asigurați-vă că, dacă configurați contacte **WhatsApp** sau contacte **SMS**, le scrieți numele **așa cum apar în lista de contacte a telefonului**
+  - Dacă utilizați **Messenger**, utilizați **numele de utilizator** messenger al contactului dvs.
 
-Replace the contact names in between ```" "``` with your own custom contact names, you can also add more custom contacts by adding after the ```"``` of the last contact a comma and a new contacts, always in between ```" "```s. 
-If we want to add ```Santa Claus``` to the list below 
+Înlocuiți numele de contact între ```" "``` cu numele dvs. personalizate de contact, puteți adăuga, de asemenea, mai multe persoane de contact personalizate, adăugând după ```"``` ultimul contact o virgulă și un contact nou, întotdeauna între ```" "```s.
+Dacă vrem să adăugăm ```Moș Crăciun``` la lista de mai jos
 ```python
-christmas_contact_names = ["John McAfee"]
+christmas_contact_names = [„John McAfee”]
 ```
-We just need to edit it like this:
+Trebuie doar să o edităm astfel:
 ```python
-christmas_contact_names = ["John McAfee", "Santa Claus"]
+christmas_contact_names = [„John McAfee”, „Moș Crăciun”]
 ```
-## Custom time range: 
-The **christmas messages** will be sent on *December 25th*  
-The **new years** messages will be sent on *January 1st*  
+## Interval de timp personalizat:
+**Mesajele de Crăciun** vor fi trimise pe *25 decembrie*
+Mesajele de **Anul Nou** vor fi trimise pe *1 ianuarie*
 
-If we want to change the christmas time range we have to edit this line:
+Dacă vrem să schimbăm intervalul de timp de Crăciun, trebuie să edităm această linie:
 ```python
 christmas_time_interval = ["08:00", "23:59"]
 ```
-If we want to change the new year's time range we have to edit this line:
+Dacă vrem să schimbăm intervalul de timp al anului nou, trebuie să edităm această linie:
 ```python
 newYears_time_interval = ["00:00", "00:15"]
 ```
 
-Make sure the **hour** is always **two digits**
+Asigurați-vă că **ora** este întotdeauna **două cifre**
 
-## Telegram API setup
-- Log in to your Telegram core: https://my.telegram.org.
-- Go to ‘API development tools’ and fill out the form.
-- Create an app
-- You will get the `api_id` and `api_hash` parameters required for user authorization (to put in the config.py file).
+## Configurare API Telegram
+- Conectați-vă la nucleul dvs. Telegram: https://my.telegram.org.
+- Accesați „Instrumente de dezvoltare API” și completați formularul.
+- Creați o aplicație
+- Veți obține parametrii `api_id` și `api_hash` necesari pentru autorizarea utilizatorului (pentru a pune în fișierul config.py).
 ---
-
-**If you have any trouble with your setup feel free to message me on Telegram [@lorcalhost](https://t.me/lorcalhost)**
+**Dacă aveți probleme cu configurarea, nu ezitați să-mi trimiteți un mesaj pe whatsapp (![image](https://github.com/GrupulVerdeIT/Trimite-automat-mesaje-de-Cr-ciun-Anul-Nou-/assets/110493446/18524aff-ba1d-4cac-938d-e83aebe21970)
+)**
