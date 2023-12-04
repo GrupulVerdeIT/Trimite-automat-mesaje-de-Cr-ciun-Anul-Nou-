@@ -185,5 +185,5 @@ Asigurați-vă că **ora** este întotdeauna **două cifre**
 - Creați o aplicație
 - Veți obține parametrii `api_id` și `api_hash` necesari pentru autorizarea utilizatorului (pentru a pune în fișierul config.py).
 ---
-**Dacă aveți probleme cu configurarea, nu ezitați să-mi trimiteți un mesaj pe whatsapp (![image](https://github.com/GrupulVerdeIT/Trimite-automat-mesaje-de-Cr-ciun-Anul-Nou-/assets/110493446/18524aff-ba1d-4cac-938d-e83aebe21970)
+**Dacă aveți probleme cu configurarea, nu ezitați să-mi trimiteți un mesaj pe whatsapp![image](https://github.com/GrupulVerdeIT/Trimite-automat-mesaje-de-Cr-ciun-Anul-Nou-/assets/110493446/18524aff-ba1d-4cac-938d-e83aebe21970
 )**
